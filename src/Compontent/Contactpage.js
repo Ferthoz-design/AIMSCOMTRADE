@@ -14,10 +14,10 @@ const Contactpage = () => {
             <div className="address-cont">
                 <div className="cont-left">
                     <p><strong className="topic">Regd. office :</strong> Sulekha Dutta Market, G.Floor, Bakrahat
-                        (Beside of Khadims), 24 Pgs.(S), Pin-743377, W.B.</p>
-                    <p>
-                        <strong className="topic">Branch office :</strong> New Alipore, Kontai, Asansol, Dhanbad,
-                        Durgapur, Burdhwan, Bankura,</p>
+                        (Beside of Khadims), kol 24 Pgs.(S), Pin-743377, W.B.</p>
+                    <p><strong className="topic">City Office :</strong> 20/1, Sahapur Colony, Plot No.- 101 (West),New Alipore,Kol-53,(Near Mukti Sangha Club)Behind of BANDHAN BANK,New Alipore Br.</p>
+                    <p> <strong className="topic">Branch offices :</strong> New Alipore, Kontai, Asansol, Dhanbad,
+                        Durgapur, Burdhwan, Bankura.</p>
                     <div className="Browser-cont">
                         <div className="contact-sec">
                             <div className="address-icons">
@@ -32,11 +32,11 @@ const Contactpage = () => {
                         <div className="contact-sec">
                             <div className="address-icons">
                                 <FiPhoneCall size={40} className="icon" style={{ color: "#fff" }} />
-                                <p><Link to="/" className="link">87776 59439, 98312 82033</Link></p>
+                                <p><Link to="/" className="link">87770 13479, 98312 60696</Link></p>
                             </div>
                             <div className="address-icons">
                                 <FiPhoneCall size={40} className="icon" style={{ color: "#fff" }} />
-                                <p><Link to="/" className="link">87770 13479, 98312 60696</Link></p>
+                                <p><Link to="/" className="link">87776 59439, 98312 82033</Link></p>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Contactpage = () => {
             </div>
             <div className="Map-container">
                 <div className="Map-left">
-                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Surekha Dutta Market,  &t=&z=6&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe wid       th="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Surekha Dutta Market,  &t=&z=6&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
                 <div className="Map-right">
                     <HiOutlineLocationMarker size={40} className="icon" style={{ color: "#fff" }} />
@@ -70,3 +70,4 @@ const Contactpage = () => {
 };
 
 export default Contactpage;
+
