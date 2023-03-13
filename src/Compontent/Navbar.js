@@ -48,4 +48,4 @@ import { FaBars, FaTimes } from "react-icons/fa";
         )
     }
 
-    export default Navbar
+    export default Navbar;
