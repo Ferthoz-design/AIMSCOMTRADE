@@ -141,7 +141,7 @@ p {
 }
 
 
-@media(max-width: 320px) {
+@media(max-width: 700px) {
 
     .cont-right img {
         display: none;
