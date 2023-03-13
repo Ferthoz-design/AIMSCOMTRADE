@@ -3,7 +3,8 @@
 .Contact-container {
     background-color: #FFCB9A;
     position: relative;
-    top: 0px;
+    top: 68px;
+    border: 1px solid black;
 
 }
 
@@ -32,7 +33,7 @@
 }
 
 .cont-right img {
-    width: 170%;
+    width: 160%;
 
 }
 
@@ -97,12 +98,14 @@
     margin: 0 20px;
     border-radius: 20px;
     box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
 
 }
 
+
 .form input {
     width: 135%;
-    padding: 15px 10px;
+    padding: 10px 10px;
     border-radius: 99px;
     border: none;
     background-color: #3C4EA2;
@@ -129,7 +132,7 @@ p {
 }
 
 .sumbit {
-    padding: 1px 10px;
+    padding: 5px 15px;
     border-radius: 99px;
     border: none;
     background-color: #EC2E35;
