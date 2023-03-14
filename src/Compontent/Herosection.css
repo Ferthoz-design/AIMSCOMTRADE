@@ -12,6 +12,8 @@
 }
 
 .Main-section {
+    position: relative;
+    top: 60px;
     width: 100%;
     display: flex;
     background-color: var(--Primary-bg-clr);
@@ -48,7 +50,7 @@ h3 {
     font-size: 30px;
 }
 
-p {
+.hero-para p {
     font-size: 16px;
     color: var(--font-clr3);
 }
@@ -82,8 +84,45 @@ button:hover {
         display: flex;
         flex-direction: column;
         background-color: var(--Primary-bg-clr);
+        z-index: 0;
     }
     .Right img{
-        margin: 0 0;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        /* margin: 0 10; */
+    }
+}
+@media(max-width: 320px) {
+    .Main-section {
+        width: 200%;
+    }
+    .hero-para{
+        font-size: 14px;
+        color: var(--font-clr3);
+    }
+    .Right img{
+        width: 390px;
+        margin: 0 auto;
+    }
+    .btn-text{
+        width: 40%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .left{
+        width: 90%;
+        border: 1PX solid blueviolet;
+    }
+    .Right{
+        border: 1PX solid rgb(4, 21, 253);
+        width: 90%;
     }
 }
