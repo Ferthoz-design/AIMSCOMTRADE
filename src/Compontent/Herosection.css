@@ -98,7 +98,8 @@ button:hover {
 }
 @media(max-width: 320px) {
     .Main-section {
-        width: 200%;
+        width: 180%;
+        /* border: 1px solid navy; */
     }
     .hero-para{
         font-size: 14px;
@@ -118,11 +119,11 @@ button:hover {
         font-size: 30px;
     }
     .left{
-        width: 90%;
-        border: 1PX solid blueviolet;
+        width: 100%;
+        /* border: 1PX solid blueviolet; */
     }
     .Right{
-        border: 1PX solid rgb(4, 21, 253);
-        width: 90%;
+        /* border: 1PX solid rgb(4, 21, 253); */
+        width: 100%;
     }
 }
