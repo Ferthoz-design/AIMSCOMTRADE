@@ -3,7 +3,7 @@
 .Contact-container {
     background-color: #FFCB9A;
     position: relative;
-    top: 0px;
+    top: 68px;
     border: 1px solid black;
 
 }
@@ -155,6 +155,36 @@ p {
         gap: 30px;
     }
 
+    .cont-left{
+        width: 90%;
+        height: 80%;
+    }
+    .Map-container{
+        width: 90%;
+        gap: 20px;
+    }
+    .Contact-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 320px) {
+    .Contact-container{
+        width: 149%;
+        border: 1px solid blueviolet;
+    }
+    .Map-container{
+        display:flex;
+        flex-direction: column;
+        border: 1px solid violet;
+    }
+    .Browser-cont{
+        margin-top: 20px;
+    }
+}
     .cont-left{
         width: 90%;
         height: 80%;
