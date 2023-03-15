@@ -10,7 +10,7 @@ const Herosection = () => {
         <h1>PRATIMA GROUP OF COMPANIES</h1>
         <h3>Aims Comtrade</h3>
         <h4>Your Search For The Best<br /> Loans Ends Here</h4>
-        <p>Your business is precious. It deserves the best business loan. Get hassle-free business financing online in just 3 simple steps.</p>
+        <p className="hero-para" >Your business is precious. It deserves the best business loan. Get hassle-free business financing online in just 3 simple steps.</p>
         <button className='btn-text'>Get Loan<FaArrowRight size={20} style={{ color: "#fff",marginleft:"10px" }} /></button>
       </div>
 
@@ -21,5 +21,3 @@ const Herosection = () => {
     </div>
   )
 }
-
-export default Herosection
