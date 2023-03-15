@@ -13,10 +13,10 @@ const Contactpage = () => {
             <h1 className="title">PRATIMA GROUP OF COMPANIES</h1>
             <div className="address-cont">
                 <div className="cont-left">
-                    <p><strong className="topic">Regd. office :</strong> Sulekha Dutta Market, G.Floor, Bakrahat
-                        (Beside of Khadims), kol 24 Pgs.(S), Pin-743377, W.B.</p>
+                    <p><strong className="topic">Regd. office :</strong> Sulekha Dutta Market, G.Floor, Bakhrahat
+                        (Beside of Khadims), kolkata 24 Pgs.(S), Pin-743377, W.B.</p>
                     <p><strong className="topic">City Office :</strong> 20/1, Sahapur Colony, Plot No.- 101 (West),New Alipore,Kol-53,(Near Mukti Sangha Club)Behind of BANDHAN BANK,New Alipore Br.</p>
-                    <p> <strong className="topic">Branch offices :</strong> New Alipore, Kontai, Asansol, Dhanbad,
+                    <p> <strong className="topic">Branch offices :</strong> Beckbagan, Kontai, Asansol, Dhanbad,
                         Durgapur, Burdhwan, Bankura.</p>
                     <div className="Browser-cont">
                         <div className="contact-sec">
@@ -47,7 +47,7 @@ const Contactpage = () => {
             </div>
             <div className="Map-container">
                 <div className="Map-left">
-                    <iframe wid       th="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Surekha Dutta Market,  &t=&z=6&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Surekha Dutta Market,  &t=&z=6&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
                 <div className="Map-right">
                     <HiOutlineLocationMarker size={40} className="icon" style={{ color: "#fff" }} />
@@ -70,4 +70,3 @@ const Contactpage = () => {
 };
 
 export default Contactpage;
-
