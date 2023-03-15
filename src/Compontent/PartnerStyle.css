@@ -1,88 +1,105 @@
-.cont-top{
+.cont-top {
     /* width: 100%; */
     /* border: 1px solid red; */
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
-.cont-down{
+
+.cont-down {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
-.Container{
+
+.Container {
     position: relative;
-    top:50px;
+    top: 50px;
     border: 1px solid blue;
     background-color: #ffffff;
     width: 100%;
     height: 100%;
 }
-.img1{
-   padding: 2px;
+
+.img1 {
+    padding: 2px;
 }
-.img2{
+
+.img2 {
     padding: 0 15px;
- }
- .img3{
+}
+
+.img3 {
     display: none;
- }
-.brands{
+}
+
+.change-img {
+    /* border: 1px solid brown; */
+    width: 60%;
+    margin-left:30px ;
+}
+
+.brands {
     display: flex;
     align-items: center;
     justify-content: center;
     /* border: 1px solid saddlebrown; */
 }
-h2{
+
+h2 {
     position: relative;
     top: 10px;
     color: rgb(59, 57, 57);
     font-size: 36px;
     font-family: Sansita One;
 }
- @media(max-width: 700px) {
-    .cont-top{
+
+@media(max-width: 700px) {
+    .cont-top {
         width: 100%;
         /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .cont-down{
-       
+
+    .cont-down {
+
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .img3{
-        display:initial;
-     }
-    .Container{
-        padding:30px 0px ;
+
+    .img3 {
+        display: initial;
+    }
+
+    .Container {
+        padding: 30px 0px;
         border: 1px solid hotpink;
         /* margin-top: 50px; */
     }
-     
-     .brands{
-        padding: 5px;
-     }
-     h2{
-        margin-bottom: 20px;
-     }
 
- }
- @media(max-width: 320px) {
-    .cont-down{
-        border: 1px solid red;
+    .brands {
+        padding: 5px;
     }
-    .Container{
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 320px) {
+
+    .Container {
         /* border: 1px solid blue; */
         width: 180%;
     }
-    
 
- }
+
+}
