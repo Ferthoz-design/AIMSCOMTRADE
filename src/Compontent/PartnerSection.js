@@ -1,12 +1,11 @@
 import "../Compontent/PartnerStyle.css";
 import React from 'react';
-import Brand1 from "../Assets/Brand1.png";
+import Brands1 from "../Assets/brands.jpeg";
 import Brand2 from "../Assets/brand2.png";
-import Brand3 from "../Assets/brand3.png";
 import Brand4 from "../Assets/brand4.png";
 import Brand5 from "../Assets/brand 5.png";
 import Brand6 from "../Assets/brand6.png";
-import Brand7 from "../Assets/brand7.png";
+// import Brand7 from "../Assets/brand7.png";
 import Brand8 from "../Assets/brand8.png";
 import Brand9 from "../Assets/brand9.png";
 import Brand10 from "../Assets/brand10.png";
@@ -25,9 +24,8 @@ const PartnerSection = () => {
       <h2>Our Lending Partners </h2>
       <div className="cont-top">
         <div className="brands">
-          <img src={Brand1} alt="img1" className="img1" />
           <img src={Brand2} alt="img2" className="img1" />
-          <img src={Brand3} alt="img3" className="img1" />
+          <img src={Brands1} alt="img2" className="change-img" />
         </div>
         <div className="brands">
           <img src={Brand4} alt="img4" className="img1" />
@@ -35,7 +33,7 @@ const PartnerSection = () => {
           <img src={Brand6} alt="img6" className="img1" />
         </div>
         <div className="brands1">
-          <img src={Brand7} alt="img7" className="img1" />
+
           <img src={Brand8} alt="img8" className="img1" />
           <img src={Brand18} alt="img18" className="img3" />
         </div>
